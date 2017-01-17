@@ -1,0 +1,39 @@
+body {
+  position: relative;
+  padding: 50px 0;
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0/15px 15px; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2em; }
+
+table {
+  background-color: #fff; }
+
+.glow {
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; }
+
+/*webkit*/
+@-webkit-keyframes neon1 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF4C05, 0 0 70px #FF4C05, 0 0 80px #FF4C05, 0 0 100px #FF4C05, 0 0 150px #FF4C05; }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF4C05, 0 0 35px #FF4C05, 0 0 40px #FF4C05, 0 0 50px #FF4C05, 0 0 75px #FF4C05; } }
+/*mozilla*/
+@-moz-keyframes neon1 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF4C05, 0 0 70px #FF4C05, 0 0 80px #FF4C05, 0 0 100px #FF4C05, 0 0 150px #FF4C05; }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF4C05, 0 0 35px #FF4C05, 0 0 40px #FF4C05, 0 0 50px #FF4C05, 0 0 75px #FF4C05; } }
+/*glow*/
+@keyframes neon1 {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF4C05, 0 0 70px #FF4C05, 0 0 80px #FF4C05, 0 0 100px #FF4C05, 0 0 150px #FF4C05; }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF4C05, 0 0 35px #FF4C05, 0 0 40px #FF4C05, 0 0 50px #FF4C05, 0 0 75px #FF4C05; } }
+
+/*# sourceMappingURL=app.min.css.map */
